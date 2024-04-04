@@ -120,7 +120,7 @@ with ui.card(full_screen=True, style="background-color: azure"):
         pd.set_option('display.width', None)        # Use maximum width
         return render.DataGrid( df,width="100%")
 
-with ui.card():
+with ui.card(style="background-color:honeydew"):
     ui.card_header("Chart with Current Trend", style="background-color: lightsteelblue")
 
     @render_plotly
